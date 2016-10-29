@@ -33,3 +33,14 @@ secidletime: 58
 use_accountids: 1
 access_token: 6cde03585f8a8be1f3706df4e2952778
 _: 1477227471217
+
+
+
+
+First Init Call
+https://api.steampowered.com/ISteamWebUserPresenceOAuth/Logon/v0001/
+jsonp: jQuery11110918981646731754_1477231560410
+ui_mode: web
+access_token: 6cde03585f8a8be1f3706df4e2952778
+_: 1477231560411
+=> Returns Message Count, steamid, umqid, timestamp und utc_timestamp

@@ -1,0 +1,21 @@
+{
+  "name": "xolf/steam-php",
+  "description": "PhP Interface for steam",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "xolf",
+      "email": "f.theimer@xolf.info"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "6.2.2",
+    "phpunit/phpunit": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xolf\\PhpSteam\\": "src"
+    }
+  }
+}
