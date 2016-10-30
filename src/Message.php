@@ -32,7 +32,7 @@ class Message {
         $url .= '&umqid=' . $this->auth->umqid;
         $url .= '&type=saytext';
         $url .= '&steamid_dst=' . $attr['steamid_dst'];
-        $url .= '&text=' . $attr['message'];
+        $url .= '&text=' . urlencode($attr['message']);
         $url .= '&access_token=' . $this->access_token;
         $url .= '&_=' . time();
         return $url;
